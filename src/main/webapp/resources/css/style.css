@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background: lightgray;
+}
+
+.title_table {
+    background-color: #808080;
+}
+
+.title_discipline_name {
+    background-color: grey;
+}
+
+.title_table_student {
+    background-color: grey;
+    height: 20px;
+}
+
+.main_container_1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 950px;
+    height: 100px;
+}
+
+.main_container_1 .button_del input {
+    width: 430px;
+    margin: 5px;
+    height: 40px;
+    background: grey;
+    border-radius: 5px;
+}
+
+.main_container_1 form .button input {
+    width: 430px;
+    margin: 5px;
+    height: 40px;
+    background: grey;
+    border-radius: 5px;
+}
+
+.main_container_2 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0 0 50px;
+    height: auto;
+}
+
+.main_container_2 form .button input {
+    width: 380px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    background: grey;
+    border-radius: 5px;
+}
+
+.main_container_2 .button_del input {
+    width: 380px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    background: grey;
+    border-radius: 5px;
+}
+
+.table_students_container {
+    display: flex;
+    margin: 10px;
+}
+
+.table_student_progress {
+    display: flex;
+
+}
+
+.table_discipline_container {
+    display: flex;
+}
+
+.discipline_progress_container {
+    display: flex;
+}
+
+.discipline_progress {
+    width: 400px;
+    border-collapse: collapse;
+    border: solid black 1px;
+    margin-top: 20px;
+    background: white;
+}
+
+.term_duration {
+    display: flex;
+    font-size: 20px;
+    width: 280px;
+    margin-left: 320px;
+}
+
+.term_choice {
+    display: flex;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 320px;
+}
+
+.term_choice select {
+    margin-left: 20px;
+}
+
+.term_choice form .button input {
+    border-radius: 5px;
+    margin-left: 10px;
+    background: grey;
+}
+
+.progress_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 310px;
+    width: 850px;
+}
+
+.term_choice_progress {
+    font-weight: bolder;
+    margin: 20px 0 0 80px;
+    width: 400px;
+    font-size: 15px;
+}
+
+.term_choice_progress span {
+    margin: 10px;
+}
+
+.term_choice_progress select {
+    margin-left: 10px;
+}
+
+.term_choice_progress form .button input{
+    width: 90px;
+    border-radius: 5px;
+    background: grey;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.block_title {
+    font-size: 20px;
+    font-weight: bolder;
+    max-width: 800px;
+    height: 30px;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.students {
+    width: 960px;
+    border-collapse: collapse;
+    margin: auto;
+    background: white;
+}
+
+.student {
+    width: 850px;
+    border-collapse: collapse;
+    margin: auto;
+    background: white;
+}
+
+.list_students {
+    text-align: left;
+    font-size: 20px;
+}
+
+.list_student {
+    text-align: left;
+    font-size: 20px;
+}
+
+.list_discipline {
+    text-align: left;
+    font-size: 20px;
+}
+
+.title_discipline_name_progress {
+    background-color: grey;
+
+}
+
+.discipline_choiсe {
+    height: 100px;
+    text-align: center;
+}
+
+.discipline_name {
+    height: 100px;
+}
+
+.last {
+    width: 90px;
+}
+
+.first {
+    text-align: center;
+    width: 60px;
+}
+
+.discipline {
+    width: 400px;
+    border-collapse: collapse;
+    margin-left: 320px;
+    background: white;
+}
+
+.discipline th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.discipline_progress th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.student th, td {
+    border: 1px solid black;
+}
+
+
+.students th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.logout {
+    margin-left: 1200px;
+    font-size: 17px;
+}
+
+.title_page {
+    font-size: 17px;
+}
+
+.back {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.links {
+    word-spacing: 310px;
+    margin-left: 300px;
+    font-size: 17px;
+}
+
+.create_container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid black 1px;
+    background: white;
+    padding: 20px 30px;
+}
+
+.login_container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-flow: column wrap;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid black 1px;
+    background: white;
+    padding: 20px 30px;
+}
+
+.login_container .title_login {
+    display: flex;
+    width: 300px;
+
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.login_container form .login_info {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+
+}
+
+form .login_info .input-box {
+    margin: 10px 10px 10px 0px;
+    width: calc(100% / 2 - 2px);
+}
+
+.login_info .input-box input {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login_info .input-box select {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.create_container .title_create {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.create_container form .creat_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+form .creat_info .input-box {
+    margin: 10px 10px 10px 10px;
+    width: calc(100% / 2 - 2px);
+}
+
+.creat_info .input-box input {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.creat_info .input-box select {
+    border-radius: 5px;
+    height: 150px;
+    width: 100%;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.login_container .error_login p{
+    color: red;
+}
+
+.create_container .error p {
+    color: red;
+    margin-left: 50%;
+}
+
+form .button input {
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 20px;
+    background: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
