@@ -326,6 +326,11 @@ form .login_info .input-box {
     font-size: 16px;
 }
 
+.login_container .info_instruction {
+    font-size: 20px;
+    color: red;
+}
+
 .create_container .title_create {
     display: flex;
     font-size: 20px;
